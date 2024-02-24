@@ -1,0 +1,44 @@
+{
+  "name": "react-download-hook",
+  "version": "1.0.3",
+  "description": "React hook to download data as ",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/gigantz/react-download-hook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigantz/react-download-hook.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "react-hook",
+    "useDownload",
+    "download",
+    "react",
+    "mimetype"
+  ],
+  "author": "Orkhan Jafarov",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "./dist/**/*",
+    "package.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false
+}
